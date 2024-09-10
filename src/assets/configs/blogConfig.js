@@ -1,150 +1,54 @@
 import React from 'react'
-import {AiFillGithub} from "react-icons/ai";
-import {SiMedium} from "react-icons/si";
-import fastapiSklearn from "../images/fastapi_sklearn.png"
+import { SiMedium } from "react-icons/si";
+import { FaFilePdf } from "react-icons/fa";
+import astro2ds from "../images/astro_to_data_blog_image.jpeg";
+import codeMix from "../images/code_mixing_paper_image.jpg";
+import thesisImage from "../images/thesis_image.png"
+
 
 const blogConfig = [
     {
-        id: "blog-8",
-        title: "How to Solve Scheduling Problems in Python",
+        id: "blog-0",
+        title: "Optimisation of Galaxy Identification Methods on Large Interferometric Surveys",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/how-to-solve-scheduling-problems-in-python-36a9af8de451",
-                icon: <SiMedium/>
+                name: "thesis",
+                url: "https://open.uct.ac.za/items/4e53fd08-5ca4-4cde-9199-50b249db914e",
+                icon: <FaFilePdf />
             }
         ],
-        image: "https://miro.medium.com/max/700/1*VKIGzmJrYBzcPlB6USx8OA.jpeg",
-        description: "Use linear programming to minimize the difference between required and scheduled resources.",
-        target: "_blank"
-    },
-    {
-        id: "blog-7",
-        title: "Adaptive Parameters Methods for Machine Learning",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/adaptive-parameters-methods-for-machine-learning-6f7101a9a71",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/700/1*DeZYSLcMdF58BeqemGhUhg.jpeg",
-        description: "Let's explore some methods to adapt your parameters over time.",
-        target: "_blank"
-    },
-    {
-        id: "blog-6",
-        title: "Evolutionary Feature Selection for Machine Learning",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/evolutionary-feature-selection-for-machine-learning-7f61af2a8c12",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*hgFe2YFnwzt_K2TfE7aSrQ.jpeg",
-        description: "Learn how to make feature selection for machine learning algorithms using evolutionary models.",
-        target: "_blank"
-    },
-    {
-        id: "blog-5",
-        title: "Real-time anomaly detection with Apache Kafka and Python",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/real-time-anomaly-detection-with-apache-kafka-and-python-3a40281c01c9",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
-                icon: <AiFillGithub/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*Xem1rbG0Fa8DAhtez7mvsA.jpeg",
-        description: "Learn how to make predictions over streaming data coming from Kafka using Python.",
-        target: "_blank"
-    },
-    {
-        id: "blog-4",
-        title: "Serve a machine learning model using Sklearn, FastAPI, and Docker",
-        links: [
-            {
-                name: "article",
-                url: "https://medium.com/analytics-vidhya/serve-a-machine-learning-model-using-sklearn-fastapi-and-docker-85aabf96729b",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/fast-ml-deploy",
-                icon: <AiFillGithub/>
-            }
-        ],
-        image: fastapiSklearn,
-        description: "Get your model machine learning model to production as a containerized API.",
-        target: "_blank"
-    },
-    {
-        id: "blog-3",
-        title: "Are You Still Using Grid2 Search for Hyperparameters Optimization?",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/hyperparameters-tuning-from-Grid2-search-to-optimization-a09853e4e9b8",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/0*ZYC4nQw8g2dv7GCp",
-        description: "Let's discuss the ideas behind how to search in a smart fashion the hyperparameters for your machine learning models.",
-        target: "_blank"
-    },
-    {
-        id: "blog-2",
-        title: "Tune Your Scikit-learn Model Using Evolutionary Algorithms",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/tune-your-scikit-learn-model-using-evolutionary-algorithms-30538248ac16",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*gmNunOZ86_URtnzuOA7oNg.jpeg",
-        description: "Scikit-learn hyperparameters tuning with evolutionary algorithms and cross-validation.",
+        image: thesisImage,
+        description: "Master’s thesis on optimizing galaxy identification methods in large interferometric surveys.",
         target: "_blank"
     },
     {
         id: "blog-1",
-        title: "Manage your machine learning life cycle with MLflow in Python",
+        title: "Prevalence of Code Mixing in Semi-formal Patient Communication in Low Resource Languages of South Africa",
         links: [
             {
-                name: "article",
-                url: "https://medium.com/analytics-vidhya/manage-your-machine-learning-lifecycle-with-mlflow-in-python-d678d5f3c682",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/mlflow-basics",
-                icon: <AiFillGithub/>
+                name: "paper",
+                url: "https://www.researchgate.net/publication/337241667_Prevalence_of_code_mixing_in_semi-formal_patient_communication_in_low_resource_languages_of_South_Africa",
+                icon: <FaFilePdf />
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*FhKrMpcUPeZxNsZpKNv4BA.png",
-        description: "Model lifecycle management using mlflow",
+        image: codeMix,
+        description: "Co-authored paper analyzing code mixing in patient communication within low-resource languages.",
         target: "_blank"
     },
     {
-        id: "blog-0",
-        title: "Workforce planning optimization using Python",
+        id: "blog-2",
+        title: "From Astrophysics to Data Science: My Journey",
         links: [
             {
                 name: "article",
-                url: "https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a",
-                icon: <SiMedium/>
+                url: "https://reachdigitalhealth.medium.com/from-astrophysics-to-data-science-20297991c15c",
+                icon: <SiMedium />
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Learn how to find the optimal number of positions needed to manage incoming traffic.",
+        image: astro2ds,
+        description: "A personal blog detailing my journey from studying astrophysics to becoming a data scientist.",
         target: "_blank"
     }
 ]
 
-export default blogConfig
+export default blogConfig;
