@@ -1,7 +1,7 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 
-import kafkaMl from "../images/kafkaml.png"
+import IntentClassifierImage from "../images/Intent-Classification-blog-images.webp"
 import portfolio from "../images/portfolio.png"
 
 import React from 'react'
@@ -28,13 +28,13 @@ const projectConfig = [
                 icon: <AiFillEye/>
             }
         ],
-        image: kafkaMl,
+        image: IntentClassifierImage,
         description: "Project for intent classifier using word embeddings, cosine simillary and python.",
         target: "_blank"
     },
     {
         id: "project-1",
-        title: "Portfolio Web",
+        title: "Portfolio Website",
         links: [
             {
                 name: "repo",
