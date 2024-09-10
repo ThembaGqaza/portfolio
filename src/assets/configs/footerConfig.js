@@ -1,6 +1,6 @@
-import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
-import {BsMedium} from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import React from "react";
 
 const footerConfig = {
@@ -21,12 +21,12 @@ const footerConfig = {
         },
         {
             id: "footer-2",
-            url: "https://rodrigo-arenas.medium.com",
+            url: "mailto:themba.gqaza@gmail.com",
             className: "social-icon",
-            target: "_blank",
-            icon: <BsMedium size={50}/>
+            target: "_self",
+            icon: <MdEmail size={45}/>
         }
     ]
 }
 
-export default footerConfig
+export default footerConfig;
