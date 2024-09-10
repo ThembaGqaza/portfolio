@@ -10,26 +10,26 @@ const projectConfig = [
 
     {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "Intent Classifier",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
+                url: "https://github.com/ThembaGqaza/intent-classifier",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork",
+                url: "https://github.com/ThembaGqaza/intent-classifier/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription",
+                url: "https://github.com/ThembaGqaza/intent-classifier/subscription",
                 icon: <AiFillEye/>
             }
         ],
         image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        description: "Project for intent classifier using word embeddings, cosine simillary and python.",
         target: "_blank"
     },
     {
