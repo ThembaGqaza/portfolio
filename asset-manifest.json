@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0136789.css",
-    "main.js": "/portfolio/static/js/main.5ee5a762.js",
+    "main.js": "/portfolio/static/js/main.f8cba669.js",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.d1c0d19ed9460f67d40d.png",
     "static/media/astro_to_data_blog_image.jpeg": "/portfolio/static/media/astro_to_data_blog_image.6a6c1dd28c1025846593.jpeg",
     "static/media/thesis_image.png": "/portfolio/static/media/thesis_image.6fd15522b753a771eb48.png",
+    "static/media/stats-sa-scraper.png": "/portfolio/static/media/stats-sa-scraper.dca4eba2e51bccfc7325.png",
     "static/media/Intent-Classification-blog-images.webp": "/portfolio/static/media/Intent-Classification-blog-images.9600d763f5750820f91d.webp",
     "static/media/code_mixing_paper_image.jpg": "/portfolio/static/media/code_mixing_paper_image.f451970f4387d12d91e3.jpg",
     "index.html": "/portfolio/index.html",
     "main.f0136789.css.map": "/portfolio/static/css/main.f0136789.css.map",
-    "main.5ee5a762.js.map": "/portfolio/static/js/main.5ee5a762.js.map"
+    "main.f8cba669.js.map": "/portfolio/static/js/main.f8cba669.js.map"
   },
   "entrypoints": [
     "static/css/main.f0136789.css",
-    "static/js/main.5ee5a762.js"
+    "static/js/main.f8cba669.js"
   ]
 }
